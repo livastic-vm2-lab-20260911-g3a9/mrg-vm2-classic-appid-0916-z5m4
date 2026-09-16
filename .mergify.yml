@@ -1,10 +1,1 @@
-pull_request_rules:
-  - name: VM2 classic expected-App merge sink
-    conditions:
-      - base = appbound-base
-      - title = VM2_CLASSIC_APPID_BINDING
-      - label = vm2-appbound-go
-    actions:
-      merge:
-        method: merge
-        merge_bot_account: livastic-vm2-primary-20260911
+pull_request_rules: []
